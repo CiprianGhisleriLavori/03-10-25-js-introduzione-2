@@ -1,0 +1,12 @@
+.immagine{
+    height: 200px;
+    width:auto;
+    border-radius:15px;
+    margin-top:20px;
+}
+.border-red{
+    border: solid red 10px;
+}
+.border-green{
+    border: solid green 10px;
+}
