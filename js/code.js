@@ -17,7 +17,7 @@ function login_funct(){
 }
 
 function data_utenti(){
-   var array_dati=["admin","admin"];
+   var array_dati=["admin","admin","ciprian","admin"];
    return array_dati;
 }
 
@@ -28,13 +28,16 @@ function controlla_inserimento_parametri(username,password,classe_username,class
    if(username === ""){
       classe_username.classList.add("error");
       classe_errore.innerText="Inserire nome";
+      alert("Inserire Nome");
    }
    if(password === ""){
          classe_password.classList.add("error");
          classe_errore.innerText="Inserire password";
+         alert("Inserire Password");
    }
    if(password==="" && username===""){
          classe_errore.innerText="Inserire nome e password";
+         alert("Inserire Nome e Password");
    }
 
 }
