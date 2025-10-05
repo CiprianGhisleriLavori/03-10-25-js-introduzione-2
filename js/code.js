@@ -47,6 +47,7 @@ function controllo_credenziali(username,password,db,classe_username,classe_passw
    for(let i= 0; i< db.length;i +=2 ){
       if(username == db[i]){
          if(password == db[i+1]){
+            alert("Loggato!")
             window.location.replace("../views/benvenuto.html");
             localStorage.setItem("utente_accesso", db[i]);
          }
