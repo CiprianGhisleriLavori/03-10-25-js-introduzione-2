@@ -1,0 +1,32 @@
+.error{
+    border: red solid 4px;
+}
+.correct{
+    border: green solid 4px;
+}
+html{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-class{
+    display: grid;
+
+}
+input[type="button"] {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    cursor: grab;
+}
+.inpt{
+    border-radius: 20px;
+    text-align: center;
+}
+
+.grandezza{
+    height: 30px;
+    width: 200px;
+}

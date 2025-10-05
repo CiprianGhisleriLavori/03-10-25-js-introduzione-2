@@ -2,19 +2,20 @@
 <html>
     <head>
         <title>Titolo</title>
+        <link rel="icon" href="">
     <link rel="stylesheet" href="../styles/styles.css">
     
     </head>
     <body>
         <div>
-            <form>
-                <h1>Login page</h1>
-                <input type="text" placeholder="Utente" id="utente"><br><br>
-                <input type="password" placeholder="Password" id="pass"> <br><br>
-                <input type="button" value="Bottone" onclick="login_funct()"> 
+            <form class="form-class">
+                <h1 class="login-titolo">Login page</h1>
+                <input type="text" placeholder="Utente" id="utente" class="grandezza inpt"><br><br>
+                <input type="password" placeholder="Password" id="pass" class="grandezza inpt"> <br><br>
+                <input type="button" value="Accedi" onclick="login_funct() " class="grandezza"> 
             </form>
         </div>
+        <p id="errore"></p>
         <script src="../js/code.js" defer></script>
-        <p>test</p>
     </body>
 </html>
